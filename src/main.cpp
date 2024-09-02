@@ -25,7 +25,7 @@ int main() {
             std::cout << "Goodbye!" << std::endl;
             break;
         case 4:
-            playCrontab(); // Add the new case for the Crontab game
+            playCrontab();
             break;
         default:
             std::cout << "Invalid choice. Please try again." << std::endl;
@@ -35,11 +35,10 @@ int main() {
     return 0;
 }
 
-// Function to display the main menu
 void showMenu() {
     std::cout << "=== Main Menu ===" << std::endl;
     std::cout << "1. Play Tic Tac Toe" << std::endl;
     std::cout << "2. Play 'Guess the Number'" << std::endl;
     std::cout << "3. Quit" << std::endl;
-    std::cout << "4. Play Crontab" << std::endl; // Add the new menu option
+    std::cout << "4. Play Crontab" << std::endl;
 }
