@@ -45,7 +45,7 @@ many-little-games
     make
     ```
 
-   This command will compile all the `.cpp` files in the `src/` directory and generate an executable named `mon_projet`.
+   This command will compile all the `.cpp` files in the `src/` directory and generate an executable named `games`.
 
 ### Running the Program
 
