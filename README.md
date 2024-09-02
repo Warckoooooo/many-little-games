@@ -75,5 +75,3 @@ To add a new game:
 3. Add a prototype for the game function in the corresponding `.h` file.
 4. Include the new header file in `main.cpp`.
 5. Add a menu option and a case in the `switch` statement in `main.cpp` to launch the new game.
-
-```
