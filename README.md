@@ -1,6 +1,4 @@
-Here’s a `README.md` file for your project:
-
-# Multi-Game C++ Project
+# Many Little Games
 
 ## Project Overview
 This C++ project is a collection of several small games, including:
