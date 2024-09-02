@@ -2,9 +2,9 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+#include <limits> // Ajoutez cette ligne
 
 void playGuessTheCrontab() {
-    // implementation of Crontab game goes here
     std::string months[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
     int minute = rand() % 60;
     int hour = rand() % 24;
@@ -19,6 +19,10 @@ void playGuessTheCrontab() {
 
     std::cout << "At " << hour << ":" << minute << " in " << months[month] << ". What is the Crontab expression?" << std::endl;
     std::cout << "Enter your answer (in the format 'minute hour day month *'): ";
+
+    // Clear input buffer before reading line
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
     std::string userAnswer;
     std::getline(std::cin, userAnswer);
 

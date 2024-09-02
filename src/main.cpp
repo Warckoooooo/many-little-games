@@ -38,8 +38,8 @@ int main() {
 void showMenu() {
     std::cout << "=== Main Menu ===" << std::endl;
     std::cout << "1. Play Tic Tac Toe" << std::endl;
-    std::cout << "2. Play 'Guess the Number'" << std::endl;
-    std::cout << "3. Play 'Guess the Crontab'" << std::endl;
+    std::cout << "2. Play Guess the Number" << std::endl;
+    std::cout << "3. Play Guess the Crontab" << std::endl;
     std::cout << "4. Quit" << std::endl;
 }
 
