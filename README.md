@@ -19,21 +19,12 @@ The project is organized into the following directories and files:
 ├── README.md
 └── src
     ├── crontab.cpp
-    ├── crontab.d
     ├── crontab.h
-    ├── crontab.o
-    ├── game
     ├── guessthenumber.cpp
-    ├── guessthenumber.d
     ├── guessthenumber.h
-    ├── guessthenumber.o
     ├── main.cpp
-    ├── main.d
-    ├── main.o
     ├── tictactoe.cpp
-    ├── tictactoe.d
     ├── tictactoe.h
-    └── tictactoe.o
 ```
 
 ### Files Description
