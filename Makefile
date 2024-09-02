@@ -12,7 +12,7 @@ SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/guessthenumber.cpp $(SRC_DIR)/crontab.cpp $
 OBJ = $(SRC:.cpp=.o)
 
 # The name of the final executable
-TARGET = mon_projet
+TARGET = games
 
 # The default target that builds the executable
 all: $(TARGET)
@@ -24,6 +24,10 @@ $(TARGET): $(OBJ)
 # Rule to compile .cpp files into .o files
 $(SRC_DIR)/%.o: $(SRC_DIR)/%.cpp
 	$(CXX) $(CXXFLAGS) -c $< -o $@
+
+# Rule to run the executable
+run: $(TARGET)
+	./$(TARGET)
 
 # Rule to clean up the build: remove object files and the executable
 clean:

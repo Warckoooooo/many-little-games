@@ -48,11 +48,22 @@ The project is organized into the following directories and files:
    This command will compile all the `.cpp` files in the `src/` directory and generate an executable named `mon_projet`.
 
 ### Running the Program
-After compilation, you can run the program by executing the following command:
 
-```bash
-./mon_projet
-```
+After compilation, you have two options to run the program:
+
+1. **Manual Run**:
+   Run the program by executing the following command:
+
+    ```bash
+    ./games
+    ```
+
+2. **Using Make**:
+   Alternatively, you can compile and run the program in one step using:
+
+    ```bash
+    make run
+    ```
 
 ### Cleaning the Build
 To remove the compiled object files and the executable, run:
@@ -63,7 +74,7 @@ make clean
 
 ## How to Play
 
-1. **Launch the program**: After running `./mon_projet`, a menu will appear.
+1. **Launch the program**: After running `./games`, a menu will appear.
 2. **Choose a game**: Enter the number corresponding to the game you want to play.
 3. **Follow the instructions**: Each game has its own set of instructions that will guide you through the gameplay.
 4. **Exit the program**: Select the "Quit" option from the menu to exit the program.

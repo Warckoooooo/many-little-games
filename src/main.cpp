@@ -22,15 +22,15 @@ int main() {
             playGuessTheNumber();
             break;
         case 3:
-            std::cout << "Goodbye!" << std::endl;
+            playCrontab();
             break;
         case 4:
-            playCrontab();
+            std::cout << "Goodbye!" << std::endl;
             break;
         default:
             std::cout << "Invalid choice. Please try again." << std::endl;
         }
-    } while (choice != 3);
+    } while (choice != 4);
 
     return 0;
 }
@@ -39,6 +39,7 @@ void showMenu() {
     std::cout << "=== Main Menu ===" << std::endl;
     std::cout << "1. Play Tic Tac Toe" << std::endl;
     std::cout << "2. Play 'Guess the Number'" << std::endl;
-    std::cout << "3. Quit" << std::endl;
-    std::cout << "4. Play Crontab" << std::endl;
+    std::cout << "3. Play 'Guess the Crontab'" << std::endl;
+    std::cout << "4. Quit" << std::endl;
 }
+
