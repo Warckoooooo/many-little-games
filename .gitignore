@@ -31,4 +31,93 @@
 *.out
 *.app
 
-.vscode
+# Debug files
+*.dSYM/
+*.stackdump
+*.coredump
+core
+
+# Build directories
+build/
+cmake-build-debug/
+cmake-build-release/
+Debug/
+Release/
+x64/
+x86/
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# IDE specific files
+# Visual Studio Code
+.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# CLion
+.idea/
+*.iws
+*.iml
+*.ipr
+cmake-build-*/
+
+# Eclipse
+.project
+.cproject
+.settings/
+
+# Code::Blocks
+*.depend
+*.layout
+*.layout.*
+*.cbp
+*.cbp.*
+
+# Qt Creator
+*.pro.user
+*.qmake.stash
+*.pro.user.*
+.qtc_clangd/
+
+# NetBeans
+nbproject/
+private/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# CodeLite
+*.tags
+*.tags1
+*.tags2
+*.tags3
+*.tags4
+*.tags5
+
+# JetBrains Rider
+.idea/
+
+# Vim/Emacs temporary files
+*~
+\#*\#
+.\#*
+
+# Other temporary files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Dependency directories
+vendor/
