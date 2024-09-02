@@ -1,7 +1,7 @@
 #include <iostream>
-#include "crontab.h"
 #include "tictactoe.h"
 #include "guessthenumber.h"
+#include "guessthecrontab.h"
 
 // Prototypes of the game functions
 void showMenu();
@@ -22,7 +22,7 @@ int main() {
             playGuessTheNumber();
             break;
         case 3:
-            playCrontab();
+            playGuessTheCrontab();
             break;
         case 4:
             std::cout << "Goodbye!" << std::endl;

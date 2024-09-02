@@ -12,12 +12,12 @@ The project is structured to allow easy addition of more games in the future. Ea
 The project is organized into the following directories and files:
 
 ```bash
-/mon_projet
+many-little-games
 ├── Makefile
 ├── README.md
 └── src
-    ├── crontab.cpp
-    ├── crontab.h
+    ├── guessthecrontab.cpp
+    ├── guessthecrontab.h
     ├── guessthenumber.cpp
     ├── guessthenumber.h
     ├── main.cpp
@@ -28,7 +28,7 @@ The project is organized into the following directories and files:
 ### Files Description
 - **`main.cpp`**: Contains the main menu and the logic to launch the selected game.
 - **`guessthenumber.cpp` and `guessthenumber.h`**: Implementation of the "Guess the Number" game.
-- **`crontab.cpp` and `crontab.h`**: Implementation of the "Crontab Game".
+- **`guessthecrontab.cpp` and `guessthecrontab.h`**: Implementation of the "Guess the Crontab Game".
 - **`tictactoe.cpp` and `tictactoe.h`**: Implementation of the "Tic Tac Toe" game.
 - **`Makefile`**: Automates the compilation process for the project.
 

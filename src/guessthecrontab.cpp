@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 
-void playCrontab() {
+void playGuessTheCrontab() {
     // implementation of Crontab game goes here
     std::string months[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
     int minute = rand() % 60;
