@@ -6,7 +6,11 @@ CXXFLAGS = -Wall -std=c++11
 SRC_DIR = src
 
 # List of source files in the SRC_DIR
-SRC = $(SRC_DIR)/main.cpp $(SRC_DIR)/guessthenumber.cpp $(SRC_DIR)/guessthecrontab.cpp $(SRC_DIR)/tictactoe.cpp
+SRC = $(SRC_DIR)/main.cpp \
+      $(SRC_DIR)/guessthenumber.cpp \
+      $(SRC_DIR)/guessthecrontab.cpp \
+      $(SRC_DIR)/tictactoe.cpp \
+      $(SRC_DIR)/mentalmath.cpp  # Added new source file
 
 # List of object files corresponding to the source files
 OBJ = $(SRC:.cpp=.o)
